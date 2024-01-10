@@ -82,3 +82,22 @@ const myParagraph = "Hello " + theName + "and hello " + theSecondName + "hello m
 
 // 10. functions
 
+function logWord (name){ // can add whatver in () and remove Christain example to have the same text but diffirent name
+    console.log("hello christian sir");
+    console.log ("Hello " + name + " sir");
+}
+
+logWord(); // this calls the function and will auto console.log it as that is the function.
+
+//  example of usage : when pressing like on insta. it calls the function and it gives all the information for it. //fire function
+
+function logWord(name) {
+    if (name !== undefined) {
+        console.log("Hello " + name + " Sir");
+    } else {
+        console.log("Sorry ;(");
+    }
+
+
+
+}
